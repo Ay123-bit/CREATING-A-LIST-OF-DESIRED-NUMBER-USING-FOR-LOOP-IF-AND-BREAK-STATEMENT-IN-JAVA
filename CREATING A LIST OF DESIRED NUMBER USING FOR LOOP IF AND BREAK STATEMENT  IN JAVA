@@ -1,0 +1,17 @@
+//INPUT
+import java.util.*;
+public class condition_for{
+  public static void main(String[] args){
+    for(int i=0; i<=10;i++){
+      if(i==5){
+        break;
+      }
+      System.out.println("The list is:"+i);
+    }
+  }
+}
+The list is:0
+The list is:1
+The list is:2
+The list is:3
+The list is:4
